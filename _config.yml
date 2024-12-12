@@ -1,7 +1,7 @@
 title: Guía de Restaurantes
 description: Descubre los mejores restaurantes por ciudades
-baseurl: "/mi-guia-restaurantes"
-url: "https://tu-usuario.github.io"
+baseurl: "/conparquedebolas"
+url: "https://palomoduarte.github.io"
 
 # Build settings
 markdown: kramdown
