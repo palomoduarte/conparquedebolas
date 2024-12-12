@@ -16,7 +16,7 @@ plugins:
 collections:
   restaurantes:
     output: true
-    permalink: /restaurantes/:path/
+    permalink: /conparquedebolas/:path/
 
 defaults:
   - scope:
