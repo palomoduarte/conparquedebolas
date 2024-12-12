@@ -1,17 +1,39 @@
-- nombre: Restaurante El Jardín
+- nombre: La Parrilla de Madrid
   ciudad: Madrid
-  descripcion: Cocina mediterránea con un ambiente acogedor
-  imagen: /assets/images/jardin.jpg
-  url: restaurante-el-jardin
+  descripcion: Restaurante especializado en carnes a la parrilla con un ambiente moderno
+  imagen: /assets/images/parrilla-madrid.jpg
+  url: la-parrilla-de-madrid
+  direccion: Calle Mayor 23, Madrid
+  tipo_cocina: Carnes
 
-- nombre: Sabor Barcelonés
-  ciudad: Barcelona  
-  descripcion: Tapas tradicionales con un toque moderno
-  imagen: /assets/images/sabor.jpg
-  url: sabor-barcelones
+- nombre: Sabores de Barcelona
+  ciudad: Barcelona
+  descripcion: Cocina mediterránea con ingredientes frescos y locales
+  imagen: /assets/images/sabores-barcelona.jpg
+  url: sabores-de-barcelona
+  direccion: Rambla del Poblenou 45, Barcelona
+  tipo_cocina: Mediterránea
 
-- nombre: Bistro Valencia
+- nombre: El Rincón Valenciano
   ciudad: Valencia
-  descripcion: Cocina francesa en el corazón de Valencia
-  imagen: /assets/images/bistro.jpg
-  url: bistro-valencia
+  descripcion: Auténtica paella valenciana y otros platos tradicionales
+  imagen: /assets/images/rincon-valenciano.jpg
+  url: el-rincon-valenciano
+  direccion: Plaza de la Virgen 12, Valencia
+  tipo_cocina: Paella
+
+- nombre: Tapas y Más
+  ciudad: Sevilla
+  descripcion: Bar de tapas con los sabores más tradicionales de Andalucía
+  imagen: /assets/images/tapas-sevilla.jpg
+  url: tapas-y-mas
+  direccion: Calle Sierpes 8, Sevilla
+  tipo_cocina: Tapas
+
+- nombre: Bistró Bilbaíno
+  ciudad: Bilbao
+  descripcion: Cocina vasca contemporánea con un toque de innovación
+  imagen: /assets/images/bistro-bilbao.jpg
+  url: bistro-bilbaino
+  direccion: Calle Arenal 22, Bilbao
+  tipo_cocina: Vasca
