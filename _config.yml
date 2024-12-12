@@ -1,0 +1,30 @@
+title: Guía de Restaurantes
+description: Descubre los mejores restaurantes por ciudades
+baseurl: "/mi-guia-restaurantes"
+url: "https://tu-usuario.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Configuraciones personalizadas
+collections:
+  restaurantes:
+    output: true
+    permalink: /restaurantes/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "restaurantes"
+    values:
+      layout: "restaurante"
+  - scope:
+      path: "_pages"
+    values:
+      layout: "default"

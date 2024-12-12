@@ -1,0 +1,17 @@
+- nombre: Restaurante El Jardín
+  ciudad: Madrid
+  descripcion: Cocina mediterránea con un ambiente acogedor
+  imagen: /assets/images/jardin.jpg
+  url: restaurante-el-jardin
+
+- nombre: Sabor Barcelonés
+  ciudad: Barcelona  
+  descripcion: Tapas tradicionales con un toque moderno
+  imagen: /assets/images/sabor.jpg
+  url: sabor-barcelones
+
+- nombre: Bistro Valencia
+  ciudad: Valencia
+  descripcion: Cocina francesa en el corazón de Valencia
+  imagen: /assets/images/bistro.jpg
+  url: bistro-valencia

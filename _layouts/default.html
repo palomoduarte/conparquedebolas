@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{{ '/' | relative_url }}">Inicio</a>
+            <a href="{{ '/restaurantes' | relative_url }}">Restaurantes</a>
+            <a href="{{ '/categorias' | relative_url }}">Ciudades</a>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    </footer>
+</body>
+</html>
